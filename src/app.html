@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover" class="w-screen">
+		<nav class="navbar w-screen">
+			<ul class="navbar-inner overflow-hidden">
+				<li class="navbar-i navbar-i-left px-4"><a href="/"><img src="%sveltekit.assets%/favicon.png" width="40" height="40" alt="Home"></a></li>
+				<li class="navbar-i-text navbar-i-right px-4"><a href="/projects">Projects</a></li>
+			</ul>
+		</nav>
+
+		<div class="flexbox justify-center items-center w-1/2 m-auto mt-20">%sveltekit.body%</div>
+	</body>
+</html>

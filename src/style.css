@@ -1,0 +1,99 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    background-color: #4c3b66;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #13032cc5;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.navbar-inner {
+    width: 98%;
+    list-style-type: none;
+    margin: 0;
+    left: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-i-text a {
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color .2s ease-in;
+    color: rgb(204, 171, 218);
+}
+
+.navbar-i img {
+    border-radius: 2px;
+    transition: background-color .2s ease-in;
+    background-color: rgb(204, 171, 218);
+}
+
+.navbar-i-text a:hover {
+    color: white;
+}
+
+.navbar-i img:hover {
+    background-color: white;
+}
+
+.navbar-i-left {
+    float: left;
+}
+
+.navbar-i-right {
+    float: right;
+}
+
+.main-card {
+    color:#cecece;
+    background-color: #311e5746;
+    transition: background-color .2s ease-in;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.main-card:hover {
+    background-color: #0f001f;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply font-extrabold text-black text-2xl;
+    }
+
+    h2 {
+        @apply text-white text-xl font-bold;
+    }
+
+    .normal-list > li {
+        @apply  ml-4 list-disc
+    }
+
+    a {
+        @apply underline italic
+    }
+}
