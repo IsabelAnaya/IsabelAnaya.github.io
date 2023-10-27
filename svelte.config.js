@@ -8,7 +8,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : process.env.BASE_PATH,
+			base: process.env.NODE_ENV === 'production' ? '/isabelanaya.github.io' : '',
 		}
 	},
 	preprocess: vitePreprocess()
