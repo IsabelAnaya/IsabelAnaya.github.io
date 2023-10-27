@@ -226,5 +226,5 @@
     </div>
 
     <!-- Tailwind Elements JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    <script src="/tw-elements.umd.min.js"></script>
 </body>
