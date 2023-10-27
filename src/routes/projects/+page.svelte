@@ -1,3 +1,12 @@
+<script>
+
+    import { onMount } from "svelte";
+    import { Carousel, initTE } from "tw-elements";
+
+    onMount(() => {
+        initTE({ Carousel });
+    });
+</script>
 <head>
     <!-- Tailwind Elements styles. this kills the layered styles-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
@@ -224,7 +233,4 @@
         <p>A program to glitch images through random bit shifts.</p>
         <a href="https://github.com/IsabelAnaya/image-breaker" class="underline italic">Github Link</a>
     </div>
-
-    <!-- Tailwind Elements JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 </body>
