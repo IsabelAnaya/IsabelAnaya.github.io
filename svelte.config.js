@@ -5,13 +5,12 @@ const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	preprocess: vitePreprocess(),
 	kit: {
 		adapter: adapter(),
-		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/isabelanaya.github.io' : '',
-		}
-	},
-	preprocess: vitePreprocess()
+	}
 };
+
+config.paths = { base: process.argv.includes('dev') ? '' : process.env.BASE_PATH }
 
 export default config;
