@@ -5,7 +5,7 @@
 <body>
     <h1>ISABEL ANAYA</h1>
     <div class="main-card">
-        <p> I'm Isabel, I like messing with code and building things. 
+        <p> I'm Isabel, I like working with code and building things. 
             I enjoy working on full stack development for software and applications, though I also 
             have experience with databases, networks, and amateur game development. </p> 
     </div>
@@ -18,7 +18,7 @@
             Helped troubleshoot issues in code and the Ubuntu environment.
         </p>
         <br>
-        <h4 class="italic">Software Developer Intern ... 01/20 - 05/20</h4>
+        <h4 class="italic">Undergraduate Researcher ... 01/20 - 05/20</h4>
         <p>
             Contributed to a research project intending to visualize number sequences. 
             Designed visualizers with JavaScript, and wrote a user manual explaining parameters and results from the visualizers.
